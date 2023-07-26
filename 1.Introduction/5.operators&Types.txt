@@ -9,7 +9,7 @@ For example,
 5
 Here + is an operator that performs addition, and 2 and 3 are operands.
 
---------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 TYPES OF JAVASCRIPT OPERATORS:
 Here is a list of different operators you will learn in this tutorial.
@@ -21,7 +21,7 @@ Bitwise Operators
 String Operators
 Other Operators
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 ASSIGNMENT OPERATORS:
 
@@ -32,19 +32,18 @@ Here, the = operator is used to assign value 5 to variable x.
 
 Here's a list of commonly used assignment operators:
 
-OPERATORS    |               NAME   			               	    EXAMPLE
-=                  	   |	Assignment operator		            a = 7; // 7
-+=	                   |	Addition assignment	        	    a += 5; // a = a + 5
--=	                   |	Subtraction Assignment	        	    a -= 2; // a = a - 2
-*=	                	Multiplication Assignment		    a *= 3; // a = a * 3
-/=	                	Division Assignment	        	    a /= 2; // a = a / 2
-%=              	Remainder Assignment	        	    a %= 2; // a = a % 2
-**=	                	Exponentiation Assignment		    a **= 2; // a = a**2
+OPERATORS              |        NAME   			             |  	   EXAMPLE
+=                  	   |	  Assignment operator		       |    a = 7; // 7
++=	                   |  	Addition assignment	         |	  a += 5; // a = a + 5
+-=	                   |	  Subtraction Assignment	     |    a -= 2; // a = a - 2
+*=	                   |	  Multiplication Assignment		 |    a *= 3; // a = a * 3
+/=	                	 |    Division Assignment	         |	  a /= 2; // a = a / 2
+%=                     | 	  Remainder Assignment	       | 	  a %= 2; // a = a % 2
+**=	                	 |    Exponentiation Assignment		 |    a **= 2; // a = a**2
 
 Note: The commonly used assignment operator is =. You will understand other assignment operators such as +=, -=, *= etc. 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------
-
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 ARITHEMATIC OPERATORS:
 
@@ -55,15 +54,15 @@ const number = 3 + 5;
 8
 Here, the + operator is used to add two operands.
 
-OPERATOR                NAME                EXAMPLE
-+                      Addition	             x + y
--	                 Subtraction             x - y
-*	                 Multiplication	         x * y
-/	                   Division              x / y
-%	                  Remainder	             x % y
-++	            Increment (increments by 1)	++x or x++
---	            Decrement (decrements by 1)	--x or x--
-**	              Exponentiation (Power)	 x ** y
+OPERATOR       |      NAME                       |   EXAMPLE
++              |    Addition	                   |   x + y
+-	             |    Subtraction                  |   x - y
+*	             |    Multiplication	             |   x * y
+/	             |    Division                     |   x / y
+%	             |    Remainder	                   |   x % y
+++	           |    Increment (increments by 1)	 |   ++x or x++
+--	           |    Decrement (decrements by 1)	 |   --x or x--
+**	           |    Exponentiation (Power)	     |   x ** y
 
 Example: Arithmetic operators in JavaScript
 let x = 5;
@@ -90,5 +89,9 @@ console.log('x = ', x);     // 5
 console.log('x ** y =', x ** y);
 
 Note: The ** operator was introduced in ECMAScript 2016 .
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
