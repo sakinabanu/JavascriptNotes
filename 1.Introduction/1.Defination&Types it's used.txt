@@ -1,0 +1,86 @@
+JavaScript :
+
+JavaScript is a popular programming language which is in demand now-a-days.
+
+At early days JavaScript was used mainly for making webpages & making it interactive such as form validation, animation, etc. But now JavaScript is used in many other areas such as server-side development, mobile app development and many more. Because of its wide range of applications, you can run JavaScript in several ways:
+	i.    Using console tab of web browsers
+	ii.   Using Node.js
+	iii.  By creating web pages
+
+1. Using Console Tab of Web Browsers:
+
+All the popular web browsers have built-in JavaScript engines. Hence, you can run JavaScript on a browser. To run JavaScript on a browser,
+
+Step are:
+Open a browser (like Google Chrome).
+Open the developer tools by right clicking on an empty area and select Inspect. 
+Inspect Browser
+On the developer tools, go to the console tab. Then, write JavaScript code and press enter to run the code.
+few examples for console tabs are:
+3+4
+>7
+5*2
+>10
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Using Node.js:
+
+Node is a back-end run-time environment for executing JavaScript code. To run JS using Node.js.
+
+Steps are:
+Install the latest version of Node.js.
+Install an IDE/Text Editor like Visual Studio Code. 
+In VS code, create a file > write JS code > save it with file.js extension.
+Code in IDE
+>3+4
+Open up the terminal/command prompt > navigate to the file location > type node file.js > Do enter.
+Execute JS code in node
+7
+You will get output on the terminal.
+
+Note: It is also possible to run JavaScript on the terminal/command prompt directly. For that, simply type node and press enter. Then you can start writing JS code.
+Eg:
+C:\Users\Dell>node
+Welcome to Node.js v18.17.0.
+Type ".help" for more information.
+> 3+4
+7
+> 8838383*33230320
+293702295372560
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. By Creating Web Pages:
+
+JavaScript was initially created to make web pages interactive, that's why JavaScript and HTML go hand in hand. To run JS from a webpage, follow these steps:
+
+Open VS Code > Go to File > New File > Save it with .html extension. For example, main.html.
+Copy this doctype and save it in the file.
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Programiz</title>
+</head>
+<body>
+<script src=""></script>
+</body>
+</html>
+
+Similarly create a JS file, write the following JS code and save it with .js extension like main.js.
+
+console.log('hello world');
+
+JS code in a main.js
+
+From inside the HTML file, we need to link the main.js file to use it. You can achieve that by adding the following code in main.html.
+
+<script scr="main.js"></script>
+
+HTML code in a file
+
+Open the main.html file using a browser.
+
+To check if our JS code ran or not, Right click on the web page > Inspect > Choose console tab.

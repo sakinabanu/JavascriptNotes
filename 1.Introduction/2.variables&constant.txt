@@ -1,0 +1,170 @@
+
+JAVASCRIPT VARIABLE & CONSTANT:
+
+JAVASCRIPT VARIABLE:
+
+There are 4 ways to declare javascript variables:
+	1. var
+	2. let
+	3. const
+	4. using nothing by default it takes var
+
+A variable is a container (storage area) to hold data.
+For example,
+	var/let num = 5;
+Here, num is a variable. It's storing 5.
+
+JavaScript var & let:
+
+Now-a-days, the use of 'let' is more instead of 'var'. However, there are a few browsers that do not support let.
+
+JavaScript var Vs let
+Both var and let are used to declare variables. However, there are some differences between them.
+
+var
+var is used in the older versions of JavaScript	
+var is function scoped (will be discussed in later tutorials).	
+For example, var x;	
+
+let
+let is the new way of declaring variables starting ES6 (ES2015).
+let is block scoped (will be discussed in later tutorials).
+For example, let y;
+
+
+In JavaScript, we use either var or let keyword to declare variables. 
+For example,
+var x;
+let y;
+Here, x and y are variables.
+
+In JavaScript, it's possible to declare variables in a single statement.
+
+let x = 5, y = 6, z = 7;
+If you use a variable without initializing it, it will have an undefined value.
+
+let x; // x is the name of the variable
+console.log(x); // undefined
+Here x is the variable name and since it does not contain any value, it will be undefined.
+You can initialize variables during its declaration.
+
+It's possible to change the value stored in the variable.
+ For example,
+// 5 is assigned to variable x
+let x = 5; 
+console.log(x); // 5
+// value of variable x is changed
+x = 3; 
+console.log(x); // 3
+The value of a variable may vary. Hence, the name variable.
+
+
+We use the assignment operator = to assign a value to a variable.
+
+let x;
+x = 5;
+Here, 5 is assigned to variable x.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Rules for Naming JavaScript Variables:
+
+1. Variable names must start with either a letter, an underscore _, or the dollar sign $. 
+	For example,
+		//valid
+		let a = 'hello';
+		let _a = 'hello';
+		let $a = 'hello';
+
+2. Variable names cannot start with numbers. 
+	For example,
+		//invalid
+		Let 1a = 'hello'; // this gives an error
+
+3. JavaScript is case-sensitive. So y and Y are different variables. 
+	For example,
+		let y = "hi";
+		let Y = 5;
+
+		console.log(y); // hi
+		console.log(Y); // 5
+
+4. Keywords cannot be used as variable names. 
+	For example,
+		//invalid
+		let new = 5; // Error! new is a keyword.
+
+Note: Though you can name variables in any way you want, it's a good practice to give a descriptive variable name. If you are using a variable to store the number of apples, it better to use apples or numberOfApples rather than x or n.
+In JavaScript, the variable names are generally written in camelCase if it has multiple words. For example, firstName, annualSalary, etc.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+---------------
+
+JAVASCRIPT CONSTANTS:
+
+The const keyword was also introduced in the ES6(ES2015) version to create constants. 
+For example,
+const x = 5;
+"Once a constant is initialized, we cannot change its value."
+
+const x = 5;
+x = 10;  // Error! constant cannot be changed.
+console.log(x)
+Simply, a constant is a type of variable whose value cannot be changed.
+
+Also, you cannot declare a constant without initializing it.
+For example,
+const x;  // Error! Missing initializer in const declaration.
+x = 5;
+console.log(x)
+
+Note: If you are sure that the value of a variable won't change throughout the program, it's recommended to use const. However, there are a few browsers that do not support const. 
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+---------------
+
+Checking for redeclare:
+
+var x = 3
+console.log(x);
+var x = 5
+console.log(x);
+// IT REDECLARES
+
+
+let x = 3 
+console.log(x);
+let y = 5
+console.log(y);
+// IT DOESNOT REDECLARES
+
+// const b = 5
+// console.log(b);
+// const b = 10
+// console.log(b);
+// IT DOESNOT REDECLARES
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Checking for reassign:
+
+var a = 5
+console.log(a);
+a = 6
+console.log(a);
+// IT REASSIGNS
+
+
+let a = 3;
+console.log(a);
+a = 6,
+console.log(a);
+// IT REASSIGNS
+
+
+// const b = 5
+// console.log(b);
+// b = 10
+// console.log(b);
+//  IT DOESNOT REASSIGNS
