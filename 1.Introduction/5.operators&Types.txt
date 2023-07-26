@@ -36,10 +36,10 @@ OPERATORS  |        NAME              |  	   EXAMPLE
 =          |	  Assignment operator   |    a = 7; // 7
 +=         |  	Addition assignment   |    a += 5; // a = a + 5
 -=         |	  Subtraction Assignment|    a -= 2; // a = a - 2
-*= |	  Multiplication Assignment|    a *= 3; // a = a * 3
-/= |    Division Assignment|	  a /= 2; // a = a / 2
-%= | 	  Remainder Assignment| 	  a %= 2; // a = a % 2
-**=|    Exponentiation Assignment|    a **= 2; // a = a**2
+*=         |	  Multiplication Assignment|    a *= 3; // a = a * 3
+/=         |    Division Assignment|	  a /= 2; // a = a / 2
+%=         | 	  Remainder Assignment| 	  a %= 2; // a = a % 2
+**=        |    Exponentiation Assignment|    a **= 2; // a = a**2
 
 Note: The commonly used assignment operator is =. You will understand other assignment operators such as +=, -=, *= etc. 
 
