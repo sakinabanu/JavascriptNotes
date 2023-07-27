@@ -94,6 +94,124 @@ Note: The ** operator was introduced in ECMAScript 2016 .
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
+COMPARISON OPERATORS:
+
+Comparison operators compare two values and return a boolean value, either true or false.
+
+For example,
+const a = 3, b = 2;
+console.log(a > b); // true 
+Here, the comparison operator > is used to compare whether a is greater than b.
+
+OPERATORS	|		DESCRIPTION															|	EXAMPLE
+			|																				|
+==			|	Equal to: returns true if the operands are equal										|	   x == y
+!=			|	Not equal to: returns true if the operands are not equal									|          x != y
+===			|	Strict equal to: true if the operands are equal and of the same type						|	   x === y
+!==			|	Strict not equal to: true if the operands are equal but of different type or not equal at all		|	   x !== y
+>			|	Greater than: true if left operand is greater than the right operand							|	   x > y
+>=			|	Greater than or equal to: true if left operand is greater than or equal to the right operand		|  	   x >= y
+<			|	Less than: true if the left operand is less than the right operand							|	   x < y
+<=			|	Less than or equal to: true if the left operand is less than or equal to the right operand		|	   x <= y
+
+Example: Comparison operators in JavaScript
+// equal operator
+console.log(2 == 2); // true
+console.log(2 == '2'); // true
+
+// not equal operator
+console.log(3 != 2); // true
+console.log('hello' != 'Hello'); // true
+
+// strict equal operator
+console.log(2 === 2); // true
+console.log(2 === '2'); // false
+
+// strict not equal operator
+console.log(2 !== '2'); // true
+console.log(2 !== 2); // false
+
+Comparison operators are used in decision-making and loops. 
 
 
+----------------------------------------------------------------------------------------------------------------------------------------------
 
+LOGICAL OPERATORS:
+
+Logical operators perform logical operations and return a boolean value, either true or false.
+For example,
+const x = 5, y = 3;
+(x < 6) && (y < 5); // true
+Here, && is the logical operator AND. Since both x < 6 and y < 5 are true, the result is true.
+
+OPERATORS 			|		DESCRIPTION 													|	EXAMPLE
+					|																		|
+&&					|	Logical AND: true if both the operands are true, else returns false					|	x && y
+||					|	Logical OR: true if either of the operands is true; returns false if both are false		|	x || y
+!					|	Logical NOT: true if the operand is false and vice-versa.						|	!x
+
+Example: Logical Operators in JavaScript
+// logical AND
+console.log(true && true); // true
+console.log(true && false); // false
+
+// logical OR
+console.log(true || false); // true
+
+// logical NOT
+console.log(!true); // false
+
+Logical operators are used in decision making and loops. 
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+BITWISE OPERATORS:
+
+Bitwise operators perform operations on binary representations of numbers.
+
+OPERATORS	 	|	DESCRIPTION	
+				|
+&				|	Bitwise AND
+|				|	Bitwise OR
+^				|	Bitwise XOR
+~				|	Bitwise NOT
+<<				|	Left shift
+>>				|	Sign-propagating right shift
+>>>				|	Zero-fill right shift
+
+Bitwise operators are rarely used in everyday programming. 
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+STRING OPERATORS:
+
+In JavaScript, you can also use the + operator to concatenate (join) two or more strings.
+
+Example : String operators in JavaScript
+// concatenation operator
+console.log('hello' + 'world');
+let a = 'JavaScript';
+a += ' tutorial';  // a = a + ' tutorial';
+console.log(a);
+Output
+	helloworld
+	JavaScript tutorial
+Note: When + is used with strings, it performs concatenation. However, when + is used with numbers, it performs addition.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+OTHER OPERATORS:
+
+Here's a list of other operators available in JavaScript. 
+
+Operator			|				Description										|	Example
+				|																|
+,				|	evaluates multiple operands and returns the value of the last operand. 	|	let a = (1, 3 , 4); // 4
+?:				|	returns value based on the condition	 					 		|	(5 > 3) ? 'success' : 'error'; // "success"
+delete			|	deletes an object's property, or an element of an array					|	delete x
+typeof			|	returns a string indicating the data type								|	typeof 3; // "number"
+void				|	discards the expression's return value								|	void(x)
+in				|	returns true if the specified property is in the object					|	prop in object
+instanceof		|	returns true if the specified object is of of the specified object type		|	object instanceof object_type
+
+----------------------------------------------------------------------------------------------------------------------------------------------
